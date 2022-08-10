@@ -1,3 +1,10 @@
+<!--
+ * @Description: 
+ * @Author: 
+ * @Date: 2022-08-09 20:18:01
+ * @LastEditors: wangzijian
+ * @LastEditTime: 2022-08-10 11:34:35
+-->
 <template>
   <view class="content">
     <image class="logo" src="/static/logo.png" />
@@ -8,11 +15,12 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue'
-const title = ref('Hello')
+import { ref } from "vue";
+const title = ref("nnnnnn");
+let a = 1;
 </script>
 
-<style>
+<style lang="scss">
 .content {
   display: flex;
   flex-direction: column;
@@ -35,7 +43,7 @@ const title = ref('Hello')
 }
 
 .title {
-  font-size: 36rpx;
+  font-size: 100rpx;
   color: #8f8f94;
 }
 </style>
